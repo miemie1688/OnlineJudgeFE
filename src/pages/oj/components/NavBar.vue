@@ -14,6 +14,18 @@
         <Icon type="trophy"></Icon>
         {{$t('m.Contests')}}
       </Menu-item>
+      <Submenu name="realExam">
+        <template slot="title">
+          <Icon type="podium"></Icon>
+          {{$t('m.RealExam')}}
+        </template>
+        <Menu-item name="/gesp">
+          {{$t('m.GESP')}}
+        </Menu-item>
+        <Menu-item name="/qceit">
+          {{$t('m.QCEIT')}}
+        </Menu-item>
+      </Submenu>
       <Menu-item name="/status">
         <Icon type="ios-pulse-strong"></Icon>
         {{$t('m.NavStatus')}}
