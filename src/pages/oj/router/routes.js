@@ -15,7 +15,7 @@ import {
   SubmissionDetails,
   SubmissionList,
   UserHome,
-  GGESPExam,
+  GESPExam,
   QCEITExam
 } from '../views'
 
