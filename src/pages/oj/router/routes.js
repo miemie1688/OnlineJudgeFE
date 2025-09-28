@@ -14,7 +14,9 @@ import {
   ResetPassword,
   SubmissionDetails,
   SubmissionList,
-  UserHome
+  UserHome,
+  GGESPExam,
+  QCEITExam
 } from '../views'
 
 import * as Contest from '@oj/views/contest'
@@ -112,6 +114,18 @@ export default [
         component: Contest.ACMContestHelper
       }
     ]
+  },
+  {
+    name: 'gesp',
+    path: '/gesp',
+    meta: {title: 'GESP Exam'},
+    component: GESPExam
+  },
+  {
+    name: 'qceit',
+    path: '/qceit',
+    meta: {title: 'QCEIT Exam'},
+    component: QCEITExam
   },
   {
     name: 'acm-rank',

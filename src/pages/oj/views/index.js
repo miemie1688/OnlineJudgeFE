@@ -8,6 +8,9 @@ import Home from './general/Home.vue'
 import Announcements from './general/Announcements.vue'
 
 // Grouping Components in the Same Chunk
+const GGESPExam = () => import(/* webpackChunkName: "realExam" */ '@oj/views/exam/GGESPExam.vue')
+const QCEITExam = () => import(/* webpackChunkName: "realExam" */ '@oj/views/exam/QCEITExam.vue')
+
 const SubmissionList = () => import(/* webpackChunkName: "submission" */ '@oj/views/submission/SubmissionList.vue')
 const SubmissionDetails = () => import(/* webpackChunkName: "submission" */ '@oj/views/submission/SubmissionDetails.vue')
 
@@ -23,6 +26,7 @@ export {
   Home, NotFound, Announcements,
   Logout, UserHome, About, FAQ,
   ProblemList, Problem,
+  GGESPExam, QCEITExam,
   ACMRank, OIRank,
   SubmissionList, SubmissionDetails,
   ApplyResetPassword, ResetPassword
