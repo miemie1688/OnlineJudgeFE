@@ -20,10 +20,10 @@
           {{$t('m.RealExam')}}
         </template>
         <Menu-item name="/gesp">
-          {{$t('m.GESP')}}
+          {{$t('m.GESP_Exam')}}
         </Menu-item>
         <Menu-item name="/qceit">
-          {{$t('m.QCEIT')}}
+          {{$t('m.QCEIT_Exam')}}
         </Menu-item>
       </Submenu>
       <Menu-item name="/status">
