@@ -6,7 +6,7 @@
 [![element-ui](https://img.shields.io/badge/element-2.0.9-blue.svg?style=flat-square)](https://github.com/ElemeFE/element)
 [![Build Status](https://travis-ci.org/QingdaoU/OnlineJudgeFE.svg?branch=master)](https://github.com/miemie1688/OnlineJudgeFE)
 
->### A multiple pages app built for OnlineJudge. [Demo](https://qduoj.com)
+>### A multiple pages app built for OnlineJudge. [Demo](https://60.204.175.19/)
 
 ## Features
 
