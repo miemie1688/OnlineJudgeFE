@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" class="oj-menu">
-      <div class="logo"><span><a class="logo" href="https://aikes.ltd">{{website.website_name}}</a></span></div>
+      <div class="logo"><a href="https://aikes.ltd">{{website.website_name}}</a></div>
       <Menu-item name="/">
         <Icon type="home"></Icon>
         {{$t('m.Home')}}
