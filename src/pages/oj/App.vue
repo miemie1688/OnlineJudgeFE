@@ -6,10 +6,12 @@
         <router-view></router-view>
       </transition>
       <div class="footer">
-        <p v-html="website.website_footer"></p>
-        <p>Powered by <a href="https://github.com/miemie1688/OnlineJudge">AiKeS</a>
-          <span v-if="version">&nbsp; Version: {{ version }}</span>
+        <p>
+          <a href="https://github.com/miemie1688/OnlineJudge" target="_blank" rel="noopener" class="github-link" aria-label="AiKeS on GitHub">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
         </p>
+        <p v-html="website.website_footer"></p>
       </div>
     </div>
     <BackTop></BackTop>
@@ -96,6 +98,16 @@
 
   .fadeInUp-enter-active {
     animation: fadeInUp .8s;
+  }
+
+  .github-link {
+    margin-left: 6px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .github-link .fa {
+    font-size: 16px;
+    vertical-align: middle;
   }
 
 
